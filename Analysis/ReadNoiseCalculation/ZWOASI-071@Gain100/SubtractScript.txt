@@ -1,0 +1,2 @@
+convert Bias_021.png Bias_022.png -compose minus -composite Bias_Subtraction_Gain100.png
+

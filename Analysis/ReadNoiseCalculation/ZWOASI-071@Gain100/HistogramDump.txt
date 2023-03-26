@@ -1,0 +1,2 @@
+
+convert  Bias_021.png  -define histogram:unique-colors=true  -format %c histogram:info:-

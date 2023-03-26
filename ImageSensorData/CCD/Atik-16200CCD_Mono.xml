@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ACamera>
+    <SensorId>Atik-16200CCD</SensorId>
+    <SensorType>MONOCHROME</SensorType>
+    <GainMin>0</GainMin>
+    <GainMax>100</GainMax>
+    <SensorGainReadNoise>
+        <GainReadNoiseValue>
+            <Gain>0</Gain>
+            <ReadNoise>9</ReadNoise>
+        </GainReadNoiseValue>
+        <GainReadNoiseValue>
+            <Gain>100</Gain>
+            <ReadNoise>9</ReadNoise>
+        </GainReadNoiseValue>
+    </SensorGainReadNoise>
+</ACamera>

@@ -1,0 +1,1 @@
+# KStars-OptimalExposure

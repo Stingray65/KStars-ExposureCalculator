@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ACamera>
+    <SensorId>Moravian-C3</SensorId>
+    <SensorType>MONOCHROME</SensorType>
+    <GainSelectionType>NORMAL</GainSelectionType>
+    <SensorGainSelections>
+        <GainSelection>0</GainSelection>
+        <GainSelection>4030</GainSelection>
+    </SensorGainSelections>
+    <SensorGainReadNoise>
+        <GainReadNoiseValue>
+            <Gain>0</Gain>
+            <ReadNoise>3.51</ReadNoise>
+        </GainReadNoiseValue>
+        <GainReadNoiseValue>
+            <Gain>2749</Gain>
+            <ReadNoise>3.15</ReadNoise>
+        </GainReadNoiseValue>
+        <GainReadNoiseValue>
+            <Gain>2750</Gain>
+            <ReadNoise>1.46</ReadNoise>
+        </GainReadNoiseValue>
+        <GainReadNoiseValue>
+            <Gain>4030</Gain>
+            <ReadNoise>1.39</ReadNoise>
+        </GainReadNoiseValue>
+    </SensorGainReadNoise>
+</ACamera>

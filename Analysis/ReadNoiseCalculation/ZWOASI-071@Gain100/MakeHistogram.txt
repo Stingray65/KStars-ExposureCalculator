@@ -1,0 +1,14 @@
+convert Bias_021.fits -depth 16 -type Grayscale Bias_021_Grayscale.tif
+
+convert Bias_021.fits -depth 16 Bias_021_Color.tif
+
+
+convert Bias_021.png -define histogram:unique-colors=false histogram:Bias_021-Histogram.gif
+
+
+convert Bias_021.png -separate -append -define histogram:unique-colors=false histogram:Bias_021_values.gif
+
+
+convert Bias_021.fits -separate -append -define histogram:unique-colors=false histogram:Bias_021_values.gif
+
+

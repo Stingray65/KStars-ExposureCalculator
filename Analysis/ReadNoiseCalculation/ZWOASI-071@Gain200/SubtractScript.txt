@@ -1,0 +1,6 @@
+convert Bias_041.png Bias_042.png -compose minus -composite Bias_Subtraction_Gain200.png
+
+Use Siril to convert / debayer
+
+convert Gain_200_00001.fit Gain_200_00002.fit -compose minus -composite Bias_Subtraction_Siril_Gain200.fits
+
